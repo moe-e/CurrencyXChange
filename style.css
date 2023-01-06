@@ -1,0 +1,178 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    width: 270px;
+    height: 350px;
+    background-color: rgb(255, 255, 255);
+}
+
+body.night {
+    background-color: rgba(0, 0, 0, 0.805);
+    color: white;
+}
+
+.title{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+}
+.title-name{
+    
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    color:  rgba(0, 0, 0, 0.8);
+}
+.title-name.night{
+    color: white;
+}
+
+.title-logo{
+    height:30px;
+    position: relative;
+    top:-3px;
+    left: -10px;
+}
+
+
+.input{
+    margin-top: 25px;
+    margin-bottom:20px;
+    margin-left: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.709);
+}
+.input.night{
+    color: white;
+}
+
+.amount_input{
+    margin-top: 5px;
+    padding-right: 32px;
+    padding-top:9px;
+    padding-bottom: 9px;
+    padding-left: 5px;
+    border-radius: 5px;
+    font-size: 17px;
+    border-width: thin;
+
+}
+
+.conversion{
+    display: flex;
+    margin-left: 8px;
+    margin-bottom: 22px;
+    justify-content:space-between;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.709);
+
+}
+.conversion.night{
+    color:white;
+}
+
+.from select{
+    margin-top: 7px;
+
+}
+
+.currencies1 , .currencies2{
+    padding-right: 15px;
+    padding-top:9px;
+    padding-bottom: 9px;
+    padding-left: 15px;
+    border-radius: 5px;
+}
+
+
+
+.to select{
+    margin-top: 7px;
+    margin-right: 11px;
+
+}
+
+.switch{
+    margin-top: 27px;
+    border: none;
+    cursor: pointer;
+    font-size: 22px;
+    background-color: white;
+    
+}
+
+.switch.night{
+    background-color: rgba(0, 0, 0, 0);
+    color:white;
+}
+
+.convert{
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 8px;
+    margin-right: 15px;
+    height:40px;
+    width:250px;
+    background-color: blueviolet;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+    transition:0.15s;
+}
+
+.convert.night{
+    background-color:red;
+}
+.convert:hover{
+    box-shadow: 0.4px 2px 10px rgba(0,0,0,0.2);
+
+}
+
+.dark_mode{
+    border: none;
+    background-color: rgba(241, 241, 241,0.6);
+    height: 30px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition:0.15s;
+    margin-left: 230px;
+    margin-top: 5px
+    
+}
+.dark_mode:hover{
+    box-shadow: 0.2px 1px 3px rgba(0,0,0,0.2);
+    
+}
+
+.dark_mode:active{
+    box-shadow: 5px 2px 10px rgba(0,0,0,0.2);
+    
+}
+.moon-image{
+    height:17px;
+    
+ }
+
+.answer_box{
+    justify-content:center;
+    display: flex;
+    flex-wrap: wrap;    
+    font-size: 17px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.709);
+    max-width: 300px;
+
+}
+.current{
+    margin-bottom: -10px ;
+}
+
+
+
+.answer_box.night{
+    color:white;
+}
+

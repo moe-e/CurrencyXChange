@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CurrencyXChange</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div>
+        <button class="dark_mode">
+            <img class="moon-image" src="images/moon.png" alt="dark_mode">
+        </button>
+    </div>
+    
+    <div class="title">
+        <div>
+            <img class="title-logo" src="images/currency.png">
+        </div>
+        <div class="title-name">
+            CurrencyXChange
+        </div>
+    </div>
+
+    <div class="input">
+        <div>Amount</div>
+        <div><input class="amount_input" type="text"></div>
+    </div>
+
+    <div class = "conversion">
+        <div class="from">
+            <div>From</div>
+            <div >
+                <select class="currencies1">
+                    
+                </select> 
+            
+            </div>
+            
+        </div>
+
+        <div>
+        
+            <button class="switch"><i class="fa fa-exchange"></i></button>
+        </div>
+
+        <div class="to">
+            <div>To</div>
+            <div >
+                <select class="currencies2">
+                  
+                </select> 
+
+            </div>
+            
+        </div>
+    </div>  
+
+    <div>
+        <button class="convert">Convert</button>
+    </div>
+
+    <div class="answer_box">
+        <p class="current"></p>
+        <p class="result"></p>
+        
+    </div>
+      
+</body>
+<script src="script.js"></script>
+</html>
