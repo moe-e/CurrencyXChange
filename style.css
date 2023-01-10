@@ -34,7 +34,6 @@ body.night {
     left: -10px;
 }
 
-
 .input{
     margin-top: 25px;
     margin-bottom:20px;
@@ -43,6 +42,7 @@ body.night {
     font-weight: 600;
     color: rgba(0, 0, 0, 0.709);
 }
+
 .input.night{
     color: white;
 }
@@ -56,7 +56,6 @@ body.night {
     border-radius: 5px;
     font-size: 17px;
     border-width: thin;
-
 }
 
 .conversion{
@@ -67,15 +66,14 @@ body.night {
     font-size: 14px;
     font-weight: 600;
     color: rgba(0, 0, 0, 0.709);
-
 }
+
 .conversion.night{
     color:white;
 }
 
 .from select{
     margin-top: 7px;
-
 }
 
 .currencies1 , .currencies2{
@@ -86,12 +84,9 @@ body.night {
     border-radius: 5px;
 }
 
-
-
 .to select{
     margin-top: 7px;
     margin-right: 11px;
-
 }
 
 .switch{
@@ -100,7 +95,6 @@ body.night {
     cursor: pointer;
     font-size: 22px;
     background-color: white;
-    
 }
 
 .switch.night{
@@ -126,9 +120,9 @@ body.night {
 .convert.night{
     background-color:red;
 }
+
 .convert:hover{
     box-shadow: 0.4px 2px 10px rgba(0,0,0,0.2);
-
 }
 
 .dark_mode{
@@ -140,20 +134,17 @@ body.night {
     transition:0.15s;
     margin-left: 230px;
     margin-top: 5px
-    
 }
+
 .dark_mode:hover{
-    box-shadow: 0.2px 1px 3px rgba(0,0,0,0.2);
-    
+    box-shadow: 0.2px 1px 3px rgba(0,0,0,0.2); 
 }
 
 .dark_mode:active{
-    box-shadow: 5px 2px 10px rgba(0,0,0,0.2);
-    
+    box-shadow: 5px 2px 10px rgba(0,0,0,0.2);  
 }
 .moon-image{
-    height:17px;
-    
+    height:17px;  
  }
 
 .answer_box{
@@ -164,15 +155,11 @@ body.night {
     font-weight: 600;
     color: rgba(0, 0, 0, 0.709);
     max-width: 300px;
-
 }
 .current{
     margin-bottom: -10px ;
 }
 
-
-
 .answer_box.night{
     color:white;
 }
-
